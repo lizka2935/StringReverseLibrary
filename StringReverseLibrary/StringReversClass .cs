@@ -26,5 +26,14 @@ namespace StringReverseLibrary
             else { throw new Exception(); }
 
         }
+        public static bool IsPalindrome(string textString)
+        {
+            string textString2 = new StringReversClass().ReverseString(textString);
+            if ()
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }
